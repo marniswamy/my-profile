@@ -207,7 +207,21 @@ input, select, textarea {
 /* BG */
 
 	#bg {
-		background: #348cb2 bottom left;
+		-moz-animation: bg 60s linear infinite;
+		-webkit-animation: bg 60s linear infinite;
+		-ms-animation: bg 60s linear infinite;
+		animation: bg 60s linear infinite;
+		-moz-backface-visibility: hidden;
+		-webkit-backface-visibility: hidden;
+		-ms-backface-visibility: hidden;
+		backface-visibility: hidden;
+		-moz-transform: translate3d(0,0,0);
+		-webkit-transform: translate3d(0,0,0);
+		-ms-transform: translate3d(0,0,0);
+		transform: translate3d(0,0,0);
+	/* Set your background with this */
+
+		background: #348cb2 url("../css/images/bg1.jpeg") bottom left;
 		background-repeat: repeat-x;
 		height: 100%;
 		left: 0;
@@ -281,7 +295,7 @@ input, select, textarea {
 	}
 
 	#bg {
-		background-size: 2250px auto;
+		background-size: contain;
 		width: 6750px;
 	}
 
@@ -553,7 +567,8 @@ input, select, textarea {
 		#header p {
 			font-size: 1.25em;
 			margin: 0.75em 0 0.25em 0;
-			opacity: 0.75;
+			color: #fff;
+			font-weight: 600;
 		}
 
 		#header nav {
@@ -794,7 +809,7 @@ input, select, textarea {
 		}
 
 		#bg {
-			background-size: 1500px auto;
+			background-size: contain;
 			width: 4500px;
 		} }
 
@@ -876,7 +891,7 @@ input, select, textarea {
 		}
 
 		#bg {
-			background-size: 750px auto;
+			background-size: contain;
 			width: 2250px;
 		} }
 
@@ -971,7 +986,7 @@ input, select, textarea {
 		}
 
 		#bg {
-			background-size: 300px auto;
+			background-size: contain;
 			width: 900px;
 		}
 
@@ -1069,7 +1084,7 @@ input, select, textarea {
 		}
 
 		#bg {
-			background-size: 412.5px auto;
+			background-size: contain;
 			width: 1237.5px;
 		}
 
