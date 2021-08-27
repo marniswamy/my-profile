@@ -1,3 +1,3 @@
 #### My Profile
 
--- For GitHub Pages
+[My Profile](https://marniswamy.github.io/my-profile/)
